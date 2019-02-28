@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-sm navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand">
+    <img src="./assets/image/logo3.jpg" style="width:250px;height:40px">
+  </a>
+  <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+
+        <div *ngIf="onLoggedIn()">
+            <button class="btn" type="button" (click)="onLogout()"><i class="fa fa-user-circle-o" style="font-size:30px;color:rgba(255, 255, 255, 0.5)">Logout</i></button>
+        </div>
+        <!-- <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="#">Link 1</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+          </div> -->
+      </li>
+  </ul>
+</nav>

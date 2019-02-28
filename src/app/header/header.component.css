@@ -1,0 +1,11 @@
+.btn{
+    background-color: rgba(0,0,0, 0.0);
+    border: 0;
+}
+.btn:hover{
+    background-color: rgba(194, 194, 194, 0.5);
+    color:black
+}
+.navbar{
+    background-color: black;
+}

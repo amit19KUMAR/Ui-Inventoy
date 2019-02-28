@@ -1,0 +1,53 @@
+<!-- <div class="container">
+    <form [formGroup]="player" (ngSubmit)="insertPlayer()">
+            
+        <input type="text" class="form-control mb-2" required autofocus placeholder="ProductName" formControlName="productName"><br><hr>
+
+        <input type="text" class="form-control mb-2" required autofocus placeholder="Vendor"  formControlName="vendor"><br><hr>
+
+        <input type="number" class="form-control mb-2" required autofocus placeholder="Price Of Product" formControlName="mrp"><br><hr>
+
+        <input type="number" class="form-control mb-2" required autofocus placeholder="Batch Number" formControlName="batchNum"><br><hr>
+
+        <input type="text" class="form-control mb-2" required autofocus placeholder="Batch Date" formControlName="batchDate"><br><hr>
+
+        <input type="number" class="form-control mb-2" required autofocus placeholder="Quantity" formControlName="quantity"><br><hr>
+
+        <input class="btn btn-primary" type="submit" name="submit" id="sumitId" value="Add Player"><br>
+
+</form>
+</div> -->
+
+<div class="container pt-3">
+        <div class="row justify-content-md-center">
+          <div class="col-sm-12 col-md-10">
+      
+            <div class="card border-info text-center">
+              <div class="card-header">
+                Inventory Record Details Required
+              </div>
+              <div class="card-body">
+                <img src="">
+                <h4 class="text-center">Add Details To Inventory Record </h4>
+                <form class="form-signin" [formGroup]="inventory" (ngSubmit)=onSubmitDetails()>
+
+                    <input type="text" class="form-control mb-2" required autofocus placeholder="ProductName" formControlName="productName">
+
+                    <input type="text" class="form-control mb-2" required autofocus placeholder="Vendor"  formControlName="vendor">
+            
+                    <input type="number" class="form-control mb-2" required autofocus placeholder="Price Of Product" formControlName="mrp">
+            
+                    <input type="number" class="form-control mb-2" required autofocus placeholder="Batch Number" formControlName="batchNum">
+            
+                    <input type="date" class="form-control mb-2" required autofocus placeholder="Batch Date" formControlName="batchDate">
+                    
+                    <input type="number" class="form-control mb-2" required autofocus placeholder="Quantity" formControlName="quantity">
+
+                    <button class="btn btn-lg btn-primary btn-block mb-1" type="submit">Submit Details</button>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
